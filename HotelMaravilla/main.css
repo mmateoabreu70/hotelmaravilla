@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-image: url("source/ImagenHotel.jpg");
+    background-size: cover;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0;
+}
+
+.main-div {
+    background-color: rgba(255, 255, 255);
+    padding: 5% 60px;
+    margin: 20px auto;
+}
+
+.login {
+    min-width: 500px;
+    width: 30%;
+    min-width: 500px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.registro {
+    height: fit-content;
+    width: 50%;
+    min-width: 500px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.gestion {
+    width: max-content;
+    height: max-content;
+    opacity: 0.95;
+    border-radius: 20px;
+}
+
+#form-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    margin: auto;
+}
+
+.errorms {
+    font-weight: bold; 
+    color: red;
+}
